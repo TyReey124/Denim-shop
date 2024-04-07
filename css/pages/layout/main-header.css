@@ -5,4 +5,18 @@
 
 .main-header nav {
     display: flex;
+    height: var(--main-header-height);
+    justify-content: space-between;
+    align-items: center;
 }
+
+.main-header nav .navigation-list li:not(:first-child) {
+    margin-left: 20px;
+}
+
+.main-header nav .navigation-list li a {
+    text-decoration: none;
+    color: var(--font-color-primary);
+    font-size: 16px;
+}
+

@@ -1,6 +1,7 @@
 :root {
     --main-header-height: 67px;
     --main-footer-height: 215px;
+    --font-color-primary: #151C22;
 }
 
 *,
@@ -28,4 +29,11 @@
 
 main {
     min-height: calc(100vh - var(--main-header-height) - var(--main-footer-height));
+}
+
+.navigation-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }

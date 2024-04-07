@@ -10,9 +10,14 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/pages/layout/main-header.css">
     <link rel="stylesheet" href="./css/pages/layout/main-footer.css">
+    <link rel="stylesheet" href="./css/pages/index/bestsellers.css">
+    <link rel="stylesheet" href="./css/pages/index/categories.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
     <!-- Подключение шрифтов -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -53,11 +58,52 @@
             </div>
         </section> -->
 
-        <!-- <section class="bestsellers">
+        <section class="bestsellers">
             <div class="container">
-                <h2>Bestsellers</h2>
+                <div class="row">
+                    <h2>Bestsellers</h2>
+                    <a href="#">View all</a>
+                </div>
+                <ul class="bestseller-list">
+                    <li>
+                        <a class="product-info" href="#">
+                            <h3 class="product-title">Jacket</h3>
+                            <strong class="product-price">$120</strong>
+                        </a>
+                        <a class="product-image" href="#">
+                            <img src="./img/clothes/Bestsellers Jacket-1.svg" width="270" height="350" alt="Jacket">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="product-info" href="#">
+                            <h3 class="product-title">Overalls</h3>
+                            <strong class="product-price">$140</strong>
+                        </a>
+                        <a class="product-image" href="#">
+                            <img src="./img/clothes/Bestsellers Overalls-1.svg" width="270" height="350" alt="Overalls">
+                        </a>
+                    </li >
+                    <li>
+                        <a class="product-info" href="#">
+                            <h3 class="product-title">Jacket</h3>
+                            <strong class="product-price">$90</strong>
+                        </a>
+                        <a class="product-image" href="#">
+                            <img src="./img/clothes/Bestsellers Jacket-2.svg" width="270" height="350" alt="Jacket">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="product-info" href="#">
+                            <h3 class="product-title">Overalls</h3>
+                            <strong class="product-price">$160</strong>
+                        </a>
+                        <a class="product-image" href="#">
+                            <img src="./img/clothes/Bestsellers Overalls-2.svg" width="270" height="350" alt="Overalls">
+                        </a>
+                    </li>
+                </ul>
             </div>
-        </section> -->
+        </section>
 
         <!-- <section class="news">
             <div class="container">
@@ -65,11 +111,48 @@
             </div>
         </section> -->
 
-        <!-- <section class="categories">
+        <section class="categories">
             <div class="container">
-                <h2>Shop by categories</h2>
+                <div class="row">
+                    <h2>Shop by categories</h2>
+                    <a href="#">View all</a>
+                </div>
+                <ul class="bestseller list">
+                    <li>
+                        <a class="product-info">
+                            <h3 class="product-title">Jeans</h3>
+                        </a>
+                        <a class="product-image" href="#">
+                            <img src="./img/clothes/Shop_by_category Jeans.svg" width="270" height="350" alt="Jacket">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="product-info">
+                            <h3 class="product-title">Shirts</h3>
+                        </a>
+                        <a class="product-image" href="#">
+                            <img src="./img/clothes/Shop_by_category Shirts.svg" width="270" height="350" alt="Overalls">
+                        </a>
+                    </li >
+                    <li>
+                        <a class="product-info">
+                            <h3 class="product-title">Jackets</h3>
+                        </a>
+                        <a class="product-image" href="#">
+                            <img src="./img/clothes/Shop_by_category Jackets.svg" width="270" height="350" alt="Jacket">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="product-info">
+                            <h3 class="product-title">Overalls</h3>
+                        </a>
+                        <a class="product-image" href="#">
+                            <img src="./img/clothes/Shop_by_category Overalls.svg" width="270" height="350" alt="Overalls">
+                        </a>
+                    </li>
+                </ul>
             </div>
-        </section> -->
+        </section>
     </main>
 
     <footer class="main-footer">
@@ -84,7 +167,7 @@
                 <li><a href="#">Sitemap</a></li>
                 <li><a href="#">Contacts</a></li>
             </ul>
-            <ul>
+            <ul class="navigation-list">
                 <li>
                     <a href="#">
                         <img src="./img/icons/social/facebook.svg" width="11" height="20" alt="Facebook">

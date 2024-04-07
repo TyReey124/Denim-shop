@@ -1,0 +1,63 @@
+.bestsellers {
+    padding: 50px 0;
+}
+
+.bestsellers .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bestsellers .row h2,
+.bestsellers .row a {
+    font-family: "Work Sans", sans-serif;
+    color: var(--font-color-primary)
+}
+
+.bestsellers .row h2 {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.bestsellers .row a {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.bestseller-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.bestseller-list li {
+    display: flex;
+    flex-direction: column;
+}
+
+.bestseller-list li .product-info {
+    align-self: flex-start;
+    color: var(--font-color-primary);
+    text-decoration: none;
+}
+
+.bestseller-list li .product-info .product-title,
+.bestseller-list li .product-info .product-price {
+    font-family: "Work Sans", sans-serif;
+    color: var(--font-color-primary)
+}
+
+.bestseller-list li .product-info .product-title {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.bestseller-list li .product-info .product-price {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.bestseller-list li .product-image {
+    order: -1;
+}
